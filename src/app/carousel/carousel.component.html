@@ -8,6 +8,6 @@
         </button>
     </div>
     <div class="cont cont-{{carouselId[0]}}">
-        <div *ngFor="let i of array" class="items item-{{carouselId[0]}}"><img [src]="i" loading="lazy" alt="carouselimg"></div>
+        <div *ngFor="let item of array" class="items item-{{carouselId[0]}}"><img [src]="item" loading="lazy" alt="carouselimg"></div>
     </div>
 </div>
